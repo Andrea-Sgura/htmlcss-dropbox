@@ -56,6 +56,40 @@ ul li {
     justify-content: center;
 }
 
+.container-south1{
+    max-width: 850px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container-south2{
+    max-width: 850px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.container-photo-text{
+    max-width: 850px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 50px auto;
+    display: flex;
+}
+
+.container-photo{
+    width: 50%;
+    padding: 10px 5px;
+}
+
+.container-text{
+    width: 40;
+    padding: 10px 5px;
+}
+
 
 /* layout */
 .left-col{
