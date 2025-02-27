@@ -49,7 +49,7 @@ ul li {
 
 .container-col{
     max-width: 850px;
-    height: 500px;
+    height: 600px;
     margin: 20px auto;
     background-color: blue;
     display: flex;
@@ -90,6 +90,10 @@ ul li {
     padding: 10px 5px;
 }
 
+.container-items{
+    max-width: 850px;
+
+}
 
 /* layout */
 .left-col{
@@ -129,7 +133,24 @@ ul li {
     border: 1px solid black;
     padding: 10px 5px;
     margin: 10px 15px;
+}
 
+.col-33{
+    width: 33%;
+}
+
+.content{
+    height: 300px;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-content-between{
+    justify-content: space-between;
 }
 
 /* utility */
