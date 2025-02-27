@@ -6,7 +6,7 @@
 
 /* common */
 header{
-    background-color: red;
+    background-color: white;
     padding: 15px 0;
 }
 
@@ -92,19 +92,25 @@ ul li {
 
 .container-items{
     max-width: 850px;
+}
 
+.container-footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
 }
 
 /* layout */
 .left-col{
     width: 50%;
-    background-color: yellow;
     padding: 10px;
 }
 
 .right-col{
     width: 50%;
-    background-color: orange;
     padding: 10px;
     text-align: right;
 }
@@ -135,6 +141,11 @@ ul li {
     margin: 10px 15px;
 }
 
+.col-20{
+    width: 20%;
+    padding: 10px 5px;
+}
+
 .col-33{
     width: 33%;
 }
@@ -152,10 +163,3 @@ ul li {
 .justify-content-between{
     justify-content: space-between;
 }
-
-/* utility */
-.border-black{
-    border: 1px solid black;
-}
-
-/* content */
